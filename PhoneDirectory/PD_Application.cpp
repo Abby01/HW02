@@ -93,10 +93,10 @@ void do_remove_entry(Phone_Directory& the_directory) // Exercise 1.8: please com
 	// Complete the rest of this function 
 	string number = the_directory.remove_entry(name);
 	if (number != "") {
-		cout << "The number for " << name << " is " << number << "\n";
+		cout << name << " has been removed from directory." << "\n";
 	}
 	else {
-		cout << name << "The name does not exist.";
+		cout << name << name << "does not exist in the directory." << "\n";
 	}
 }
 void do_save(Phone_Directory& the_directory)
